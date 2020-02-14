@@ -15,6 +15,7 @@ public class TC03 {
 		driver.findElement(By.id("email")).sendKeys("Tester");
 		driver.findElement(By.id("pass")).sendKeys("123123a");
 		//driver.quit();
+		System.out.println("Hello");
 			
 	}
 }
