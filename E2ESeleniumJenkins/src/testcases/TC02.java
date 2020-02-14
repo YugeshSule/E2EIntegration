@@ -14,7 +14,7 @@ public class TC02 {
 		driver.get("https://www.facebook.com");
 		driver.findElement(By.id("email")).sendKeys("Tester");
 		driver.findElement(By.id("pass")).sendKeys("123123a");
-		driver.quit();
+		//driver.quit();
 			
 	}
 }
